@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the entire alphabet in lowercase,
+ *main - prints the entire alphabet in lowercase,
  *except q and e
  *followed by a new line,
  * Return: Aways 0 (Sucess)
@@ -10,6 +10,7 @@
 int main(void)
 {
 	char ch = 'a';
+
 	while (ch <= 'z')
 	{
 		if (ch != 'e' && ch != 'q')
